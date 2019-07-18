@@ -202,6 +202,9 @@
         if (config.themeClass)
             classList.push(config.themeClass);
 
+        if (!config.title)
+            classList.push('notus-empty-title');
+
         return classList;
     };
 

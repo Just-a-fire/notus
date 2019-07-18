@@ -235,6 +235,10 @@
     min-height: 100px;
 }
 
+.notus.notus-empty-title:not(.notus-type-snackbar) {
+    min-height: 80px;
+}
+
 .notus:not(.notus-type-snackbar) .notus-content {
     max-width: 95%;
 }

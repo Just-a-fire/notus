@@ -563,6 +563,43 @@
 
             return notusEl.getAttribute('id');
         };
+
+        /**
+         * Wrapper methods for send() with predefined Alert Type
+         */
+        thisNotus.success = function(message) {
+            return thisNotus.send({
+                title: '',
+                message: message,
+                alertType: 'success',
+                htmlString: true
+            });
+        };
+        thisNotus.danger = function(message) {
+            return thisNotus.send({
+                title: '',
+                message: message,
+                autoClose: false, // errors shouldn't be closed quickly
+                alertType: 'danger',
+                htmlString: true
+            });
+        };
+        thisNotus.warning = function(message) {
+            return thisNotus.send({
+                title: '',
+                message: message,
+                alertType: 'warning',
+                htmlString: true
+            });
+        };
+        thisNotus.info = function(message) {
+            return thisNotus.send({
+                title: '',
+                message: message,
+                alertType: 'info',
+                htmlString: true
+            });
+        };
         /** Notus API end **/
 
         return thisNotus;

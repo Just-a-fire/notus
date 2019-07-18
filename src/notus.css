@@ -376,3 +376,17 @@
 .notus.notus-material-light.notus-alert-warning .notus-actions .action-item:hover {
     background-color: #FFE0B2;
 }
+
+.notus.notus-material-light.notus-alert-info {
+    background-color: #EBEEFF;
+    border-color: #CDD2FF;
+}
+
+.notus.notus-material-light.notus-alert-info.notus-actions {
+    border-color: #CDD2FF;
+}
+
+.notus.notus-material-light.notus-alert-info .notus-close:hover,
+.notus.notus-material-light.notus-alert-info .notus-actions .action-item:hover {
+    background-color: #CDD2FF;
+}

@@ -28,7 +28,7 @@ declare namespace notus {
         notusPosition?: string;
 
         /*
-         * Alert type can be; 'none', 'success', 'failure' or 'warning'
+         * Alert type can be; 'none', 'success', 'failure', 'info' or 'warning'
          */
         alertType?: string;
 

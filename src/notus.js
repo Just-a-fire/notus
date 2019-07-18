@@ -54,6 +54,7 @@
             'success': 'success',
             'failure': 'failure',
             'warning': 'warning',
+            'info': 'info',
             'custom': 'custom',
             'none': ''
         },
@@ -479,7 +480,7 @@
                                                                                'top-right' ('tr') or 'bottom-right' ('br')
                                                        'toast' & 'snackbar' => 'top' ('t') or 'bottom' ('b') */
 
-            alertType: 'none',                      /* Alert type can be; 'none', 'success', 'failure' or 'warning' */
+            alertType: 'none',                      /* Alert type can be; 'none', 'success', 'failure', 'info' or 'warning' */
 
             htmlString: false,                      /* Enable HTML support in strings provided for 'title', 'message' & 'text' within actions,
                                                        this is unsafe and hence, it is false by default */

@@ -53,6 +53,7 @@
         alertTypeMap = {
             'success': 'success',
             'failure': 'failure',
+            'danger': 'failure',
             'warning': 'warning',
             'info': 'info',
             'custom': 'custom',
